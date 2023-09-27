@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import List from './list';
+// import Reanderarry from './arry';
+// import data from "./data";
+// import Gallery from './Gallary';
+// import Queuing from './Queueing';
+// import Form from './spredoprater';
+//  import MovingDot from './mousemoving'
+ import Calculator from './calculator';
+//  import TodoList  from './TodoList';
+// import Newform from './practiceform';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   {/* <Reanderarry/> */}
+ {/* <List/> */}
+ {/* <Gallery/> */}
+ {/* <Queuing /> */}
+ {/* <Form/>   */}
+{/* <MovingDot/> */}
+<Calculator/>
+{/* <TodoList /> */}
+{/* <Newform/> */}
+    </>
   );
 }
 
